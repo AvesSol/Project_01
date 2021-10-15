@@ -9,7 +9,6 @@ const CSer =  React.lazy(() => import("./Components/home-ser.component"));
 const Intern =  React.lazy(() => import("./Components/Interns.component"));
 const IScroll =  React.lazy(() => import("./Components/iscroll.component"));
 const Location =  React.lazy(() => import("./Components/location.component"));
-const Navbar =  React.lazy(() => import("./Components/navbar.component"));
 const RSS =  React.lazy(() => import("./Components/rss.component"));
 const Services =  React.lazy(() => import("./Components/services.component"));
 const Video =  React.lazy(() => import("./Components/Video.component"));
@@ -18,7 +17,6 @@ function Home() {
   return (
     <div className="App">
       <Suspense fallback={<LoadingComponent/>}>
-        <Navbar/>
         <Head/>
         <CSer/>
         <Services/>
