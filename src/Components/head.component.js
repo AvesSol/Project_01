@@ -1,10 +1,10 @@
 import React from 'react';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
 // import logo from "../assets/logo/cplogo.png" 
-import headimg from "../assets/head.gif"
+import headimg from "../assets/head.gif";
 const Head =()=>{
     return(
-
+        <>
         <div className="container text-center">
             <img className="img-fluid vert-move"  src={headimg}  />
                 <Typical className="display-6"
@@ -12,7 +12,10 @@ const Head =()=>{
                         loop={Infinity}
                         wrapper="p"
                 />
+            <button className="explore-btn">Explore</button>
         </div>
+        
+        </>
     );
 }
 export default Head;

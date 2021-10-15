@@ -1,35 +1,17 @@
-import RSSFeed from "./Backend/rssdata.backend";
-import About from "./Components/about.component";
-import Footer from "./Components/footer.component";
-import Head from "./Components/head.component";
-import CSer from "./Components/home-ser.component";
-import Intern from "./Components/Interns.component";
-import IScroll from "./Components/iscroll.component";
-import Location from "./Components/location.component";
-import Navbar from "./Components/navbar.component";
-import RSS from "./Components/rss.component";
-import Services from "./Components/services.component";
-import Video from "./Components/Video.component";
-
+import React, {Suspense} from "react";
+import {BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './Home'
+import Login from "./Components/login.component";
+import Register from "./Components/register.component";
 
 function App() {
   return (
     <div className="App">
-     
-      <Navbar/>
-      <Head/>
-      <CSer/>
-      <Services/>
-      <Video/>
-      <RSS/>
-      <IScroll/>
-      <Intern/>
-      <About/>
-      <Location/>
-      <Footer/>
-
-      <RSSFeed/>
-
+      <Router>
+        <Route exact path='/' component={Home} />
+        <Route path='/login' component={Login} />
+        <Route path='/register' component={Register} />
+      </Router>
     </div>
   );
 }
