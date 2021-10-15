@@ -4,9 +4,9 @@ const RSS = ()=>{
     return(
         <>
           <div  className="container rss" > 
-          <h1 className="display-3">Blog</h1>
-        {/* <div className="tex-center">
-          
+          {/* <h1 className="display-3">Blog</h1> */}
+        {/* <div className="tex-center blogpost ratio ratio-16x9">
+        <iframe  src="//rss.bloople.net/?url=https%3A%2F%2Fwww.cwipedia.in%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&detail=-1&showtitle=false&type=html"></iframe>
         </div> */}
 
         <div data-aos="zoom-in-down" className="shadow p-3 mb-5 bg-white rounded">    
