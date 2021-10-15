@@ -8,44 +8,37 @@ const Login = ({history}) => {
     const [password, setPassword] = useState('')
 
     return (
-        <div id='auth-container'>
-            <div id='auth-card'>
-                <div className='card-shadow'>
-                    <div id='image-section'>
-                        <img src={loginImage} alt='Login' />   
-                    </div>
-                    <div id='form-section'>
+        <div className='container text-center'>
+            <div className="contact shadow">
                         <h2>Welcome back</h2>
                         <form> 
-                            <div className="input-group mb-3">   
-                                <input 
-                                    onChange={e => setEmail(e.target.value)}
+                            <div className="form-floating mb-3">
+                             <input type="email" className="form-control shadow" id="floatingInput" placeholder="name@example.com"  onChange={e => setEmail(e.target.value)}
                                         value={email}
                                         required='required'
                                         type='text'    
-                                        placeholder='Email' />
+                                        placeholder='Email'/>
+                                <label for="floatingInput">Email address</label>
                             </div>
-                            <div className="input-group mb-3">   
-                                <input 
-                                    onChange={e => setPassword(e.target.value)}
+                            <div className="form-floating">
+                                <input type="password" className="form-control shadow" id="floatingPassword" placeholder="Password" onChange={e => setPassword(e.target.value)}
                                         value={password}
                                         required='required'
                                         type='password' 
                                         placeholder='Password' />
+                                <label for="floatingPassword">Password</label>
                             </div>
 
-                            <button type="button" className="btn btn-primary cbtn" > LOGIN </button>
+                            <button type="submit" className="btn auth-btn cbtn" > LOGIN </button>
 
                         </form>
 
-                        <p>
+                        <p className="h6">
                             Don't have an account?
                             <Link to="/register"> Register </Link>
                         </p>
                     </div>
-                </div>
-            </div>
-        </div>
+                    </div>
     );
 }
 
