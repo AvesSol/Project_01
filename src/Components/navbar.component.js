@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom"; 
 import DarkModeToggle from "react-dark-mode-toggle";
 
 const Navbar = () => {
@@ -177,7 +178,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://career.cwipedia.in">
-                  career
+                  Career
                 </a>
               </li>
               <li className="nav-item">
@@ -213,8 +214,13 @@ const Navbar = () => {
               </ul>              
             </div>
             <div className="d-flex justify-content-right">
-              <button type="button" className="btn btn-primary cbtn">Login</button>
-              <button type="button" className="btn btn-secondary cbtn">Create Account</button>
+              <Link to="/login">
+                <button type="button" className="btn btn-primary cbtn">Login</button>
+              </Link>
+
+              <Link to='/Register'>               
+                <button type="button" className="btn btn-secondary cbtn">Create Account</button>
+              </Link>
             </div>
           </div>
         </div>
