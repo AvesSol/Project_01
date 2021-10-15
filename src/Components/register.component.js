@@ -4,75 +4,56 @@ import registerImage from '../assets/register.svg'
 
 const Register = () => {
 
-    const [firstName, setFirstName] = useState('')
-    const [lastName, setLastName] = useState('')
+    const [fullName, setFullName] = useState('')
     const [email, setEmail] = useState('')
     const [gender, setGender] = useState('male')
     const [password, setPassword] = useState('')
 
     
     return (
-        <div id='auth-container'>
-            <div id='auth-card'>
-                <div className='card-shadow'>
-                    <div id='image-section'>
-                        <img src={registerImage} alt='Register' />   
-                    </div>
-                    <div id='form-section'>
-                        <h2 class="card-title">Create an account</h2>
+        <div className='container text-center'>
+            <div className="contact shadow">
+                        <h2 className="card-title">Create an Account</h2>
                         <form> 
-                            <div class="input-group mb-3">   
-                                <input 
-                                    onChange={e => setFirstName(e.target.value)}
-                                        value={firstName}
+                        <div className="form-floating mb-3">
+                            <input type="name" className="form-control" id="floatingInput" placeholder="Eve " onChange={e => setFullName(e.target.value)}
+                                        value={fullName}
                                         required='required'
                                         type='text'   
                                         placeholder='First name' />
-                            </div>
-                            <div class="input-group mb-3">   
-                                <input 
-                                    onChange={e => setLastName(e.target.value)}
-                                        value={lastName}
-                                        required='required'
-                                        type='text'   
-                                        placeholder='Last name' />
-                            </div>
-                            <div class="input-group mb-3">   
-                                <input 
-                                    onChange={e => setEmail(e.target.value)}
+                            <label for="floatingInput">Full Name</label>
+                        </div>
+                        <div className="form-floating mb-3">
+                             <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"  onChange={e => setEmail(e.target.value)}
                                         value={email}
                                         required='required'
-                                        type='text'   
-                                        placeholder='Email' />
+                                        type='text'    
+                                        placeholder='Email'/>
+                                <label for="floatingInput">Email Address</label>
                             </div>
-                            <div class="input-group mb-3"> 
-                                <select 
-                                    onChange={e => setGender(e.target.value)}
-                                        value={gender}
-                                        required='required'  
-                                        > 
-                                    <option value='male'>Male</option>
-                                    <option value='female'>Female</option>
-                                </select>
+                            <div className="mb-3">
+                            <select className="form-select form-control">
+                                <option>select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
                             </div>
-                            <div class="input-group mb-3">   
-                                <input 
-                                    onChange={e => setPassword(e.target.value)}
+                            <div className="form-floating">
+                                <input type="password" className="form-control" id="floatingPassword" placeholder="Password" onChange={e => setPassword(e.target.value)}
                                         value={password}
                                         required='required'
-                                        type='password'   
+                                        type='password' 
                                         placeholder='Password' />
-                            </div>   
-                            <button type="button" className="btn btn-primary cbtn" > Register</button>
+                                <label for="floatingPassword">Password</label>
+                            </div>  
+                            <button type="submit" className="btn auth-btn cbtn" > Register</button>
                         </form>    
-                        <p>
+                        <p className="h6">
                             Already have an account? 
                             <Link to="/login"> Login </Link>
                         </p>
                     </div>
-                </div>
-            </div>            
-        </div>
+                    </div>
         );
 }
 
