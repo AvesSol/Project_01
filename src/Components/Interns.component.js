@@ -1,7 +1,7 @@
 import {Carousel} from '3d-react-carousal';
 import Ram from "../assets/interns/ShriRam.jpeg"
 import parag from "../assets/interns/parag.jpeg"
-
+import anurag from "../assets/interns/anurag.jpeg"
 const Intern=()=>{
 
     let slides = [
@@ -64,20 +64,20 @@ const Intern=()=>{
                 </div>
             </div>,
 
-            // <div className="card intern-card">
-            //             <img src="https://www.w3schools.com/w3images/avatar2.png" className="card-pic img-fluid" alt="..."/>
-            //                 <div className="card-body">
+            <div className="card intern-card">
+                        <img src={anurag} className="card-pic img-fluid" alt="Anurag Kanade"/>
+                            <div className="card-body">
                                 
-            //                     <h5 className="card-title">Name</h5>
-            //                     <h6 className="card-subtitle mb-2 text-muted">Web Developer Intern (Sep-Oct 2021)</h6>
-            //                     <p className="card-text">Hello all,I cwipedia.</p>
-            //                     <a aria-hidden='true' className='fa fa-github' href='' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
-            //                     <a aria-hidden='true' className='fa fa-instagram' href='' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
-            //                     <a aria-hidden='true' className='fa fa-linkedin' href='' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
-            //                     <hr/>
+                                <h5 className="card-title">Anurag Kanade</h5>
+                                <h6 className="card-subtitle mb-2 text-muted">Video Creator</h6>
+                                <p className="card-text">Hey,I'm Anurag ,Video Creator At CWIPEDIA. And I like to Teach Something About Web Designing and Development.</p>
+                                <a aria-hidden='true' className='fa fa-facebook' href='https://www.facebook.com/anurag.kanade.5' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
+                                <a aria-hidden='true' className='fa fa-instagram' href='https://instagram.com/this_is_anuragk' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
+                                <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/anuragk12' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
+                                <hr/>
 
-            //                 </div>
-            //             </div>
+                            </div>
+                        </div>
     
     ];
 
