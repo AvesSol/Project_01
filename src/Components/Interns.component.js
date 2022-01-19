@@ -8,7 +8,6 @@ const Intern=()=>{
         <div className="card intern-card">
         <img src="https://avatars.githubusercontent.com/u/50539402?v=4" className="card-pic img-fluid" alt="..."/>
             <div className="card-body">
-                
                 <h5 className="card-title">Shivam Hande</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Lead SDE</h6>
                 <p className="card-text">Hey all, I'm Shivam,a Software Developer Engineer at cwipedia, also I'm passiniate about open-source</p>
