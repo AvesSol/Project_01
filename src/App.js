@@ -4,6 +4,7 @@ import Home from './Home';
 import Login from "./Components/login.component";
 import Register from "./Components/register.component";
 import Navbar from "./Components/navbar.component";
+import About1 from "./about";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/login' component={Login} />
         <Route path='/register' component={Register} />
+        <Route path='/about' component={About1} />
       </Router>
     </div>
   );
