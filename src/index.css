@@ -292,7 +292,7 @@ footer {
 
 }
 .zoom-in-zoom-out {
-  color: #349beb;
+  color: #3944F7;
   margin-right: 10px;
   animation: zoom-in-zoom-out 2s ease-out infinite;
   font-family: "Open Sans", sans-serif;
@@ -308,7 +308,7 @@ footer {
 }
 
 .zoom-out-zoom-in {
-  color: #349beb;
+  color: #3944F7;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   animation: zoom-out-zoom-in 2s ease-out infinite;
@@ -382,6 +382,11 @@ body,
   outline: none;
   box-shadow: none;
 }*/
+
+.loading-font{
+  font-size:150px;
+}
+
 .cbtn {
   background: rgb(42, 72, 223);
   background: linear-gradient(
