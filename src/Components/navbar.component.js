@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; 
 import DarkModeToggle from "react-dark-mode-toggle";
-
+import logo from "../assets/logo/cplogo.png"
 const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => false);
   const [sticky, setSticky] = useState(false);
@@ -17,14 +17,14 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className={`navbar navbar-expand-lg navbar-light shadow p-3 mb-5 ${
+        className={`navbar navbar-expand-lg navbar-dark bg-dark shadow p-3 mb-5  ${
           sticky && "Nav"
         }`}
       >
         <div className="container-fluid cnav">
-          {/* <img src={} className="img-fluid" /> */}
           <a className="navbar-brand" href="/">
-            Home
+          <img src={logo} className="img-fluid logo" />
+
           </a>
           <button
             className="navbar-toggler"
@@ -38,7 +38,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
             <li className="nav-item">
                 <Link
                   className="nav-link"
@@ -221,7 +221,7 @@ const Navbar = () => {
                                 /> */}
               </ul>              
             </div>
-            <div className="d-flex justify-content-right">
+            {/* <div className="d-flex justify-content-right">
               <Link to="/login">
                 <button type="button" className="btn btn-primary cbtn">Login</button>
               </Link>
@@ -229,7 +229,7 @@ const Navbar = () => {
               <Link to='/Register'>               
                 <button type="button" className="btn btn-secondary cbtn">Create Account</button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

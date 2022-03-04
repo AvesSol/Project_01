@@ -10,7 +10,7 @@ const RSS = ()=>{
         </div> */}
 
         <div data-aos="zoom-in-down" className="shadow p-3 mb-5 bg-white rounded">    
-            <h1 className="display-3">Diploma Search Engine</h1>
+            <h1 className="display-3 dark">Diploma Search Engine</h1>
             <small id="emailHelp" className="form-text text-muted">get Diploma (MSBTE) study materials ,fire your query.</small>
                 
         <div className="gcse-search"></div>

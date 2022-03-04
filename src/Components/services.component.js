@@ -16,13 +16,13 @@ const Services = ()=>{
 
         <p className="display-6 text-center heading">Services</p>
 
-            <div className="container">
-                <div className="row gy-5">
+            <div className="container ">
+                <div className="row row-cols-2 d-flex justify-content-center row-cols-lg-4 g-2 g-lg-3">
                     <div className="col-sm">
                         <a className="ccardLink" href="">
                         <div  className="card ccard" >
                             <div className="card-body">
-                                <img className="img-fluid" src={AppDev} />
+                                <img className="img-fluid ser-img" src={AppDev} />
                                 <h5 className="card-title">App Development</h5>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Services = ()=>{
                         <a className="ccardLink" href="">
                         <div className="card ccard">
                             <div className="card-body">
-                                <img className="img-fluid" src={WebApp} />
+                                <img className="img-fluid ser-img" src={WebApp} />
                                 <h5 className="card-title">Web Development</h5>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Services = ()=>{
                         <a className="ccardLink" href="">
                         <div className="card ccard">
                             <div className="card-body">
-                                <img className="img-fluid" src={GR} />
+                                <img className="img-fluid ser-img" src={GR} />
                                 <h5 className="card-title">Graphic Designing</h5>
                             </div>
                         </div>
@@ -52,8 +52,28 @@ const Services = ()=>{
                         <a className="ccardLink" href="">
                         <div className="card ccard">
                             <div className="card-body">
-                                <img className="img-fluid" src={MAN} />
+                                <img className="img-fluid ser-img" src={MAN} />
                                 <h5 className="card-title">Product Management</h5>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div className="col-sm">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
+                            <div className="card-body">
+                                {/* <img className="img-fluid ser-img" src={MAN} /> */}
+                                <h5 className="card-title">Business Management</h5>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div className="col-sm">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
+                            <div className="card-body">
+                                {/* <img className="img-fluid ser-img" src={MAN} /> */}
+                                <h5 className="card-title">And more</h5>
                             </div>
                         </div>
                         </a>

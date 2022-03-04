@@ -13,7 +13,7 @@ const Accordion = () => {
                                     </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div className="accordion-body">
+                                <div className="accordion-body dark">
                                     If you are facing out a problem related to Website Control or Study Material, please go through the Contact Us section Otherwise we are reachable at business@cwipedia.in
                                     </div>
                             </div>
@@ -25,7 +25,7 @@ const Accordion = () => {
                                     </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div className="accordion-body">
+                                <div className="accordion-body dark">
                                     Yes, we do that. For this your need to contact us at business@cwipedia.in Our Team will get back to you.
                                     </div>
                             </div>
@@ -37,7 +37,7 @@ const Accordion = () => {
                                     </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div className="accordion-body">
+                                <div className="accordion-body dark">
                                     Hold on, we are here to answer your question, You Can able to download all study material under Diploma Engineering Section or Using Our Android App " MSBTE Practice" and "MSBTE Syllabus".
                                     </div>
                             </div>

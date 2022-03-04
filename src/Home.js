@@ -25,7 +25,7 @@ function Home() {
         <Video/>
         <RSS/>
         <IScroll/>
-        <Intern/>
+        {/* <Intern/> */}
         <Accordion/>
         <About/>
         <Location/>

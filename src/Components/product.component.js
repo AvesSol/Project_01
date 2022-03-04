@@ -14,7 +14,7 @@ const Product=()=>{
                     <div className="row gy-5">
                         <div className="col-sm">
                             <a className="ccardLink" href="https://www.cwipedia.in/">
-                            <div className="card productcard">
+                            <div className="card productcard bg-transparent ">
                                 <div className="card-body">
                                     <img className="img-fluid" src={WebApp} />
                                     <h5 className="card-title">Diploma Engineering Portal</h5>
@@ -24,7 +24,7 @@ const Product=()=>{
                         </div>
                         <div className="col-sm">
                             <a className="ccardLink" href="https://play.google.com/store/apps/details?id=in.cwipedia.msbtepracticecwipedia&hl=en_IN&gl=US">
-                            <div className="card productcard">
+                            <div className="card productcard bg-transparent ">
                                 <div className="card-body">
                                     <img className="img-fluid" src={App} />
                                     <h5 className="card-title">MSBTE Practice App</h5>
