@@ -35,7 +35,10 @@ const Footer =()=>{
 
             <hr/>
             <p>
-            Copyright &#169;2017-2021 All rights reserved | <a className="link" href='https://www.cwipedia.in' >cwipedia.in</a>
+            Copyright &#169;2018-<span>
+            {new Date().getFullYear()} All Rights Reserved{" "}
+          </span> 
+     | <a className="link" href='https://www.cwipedia.in' >cwipedia.in</a>
             </p>
 
         </div>

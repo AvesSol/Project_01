@@ -135,6 +135,11 @@ img.vert-move {
     text-shadow: none;
   }
 }
+.v-center{
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
 .c-head{
   /* background-image: url("./assets/headbg.png"); */
   /* height: 100%; */
