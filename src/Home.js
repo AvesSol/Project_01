@@ -2,6 +2,7 @@ import React, {Suspense} from "react";
 import Header from "./Components/header.component";
 import LoadingComponent from "./Components/loadingComponent.component";
 import Product from "./Components/product.component";
+import Team from "./Components/team.component";
 const RSSFeed =  React.lazy(() => import("./Backend/rssdata.backend"));
 const About =  React.lazy(() => import("./Components/about.component"));
 const Accordion =  React.lazy(() => import("./Components/accordion.component"));
@@ -30,6 +31,7 @@ function Home() {
         {/* <Intern/> */}
         <Accordion/>
         <About/>
+        <Team/>
         <Location/>
         <Footer/>
         <RSSFeed/>
