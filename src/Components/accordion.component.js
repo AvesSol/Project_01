@@ -3,7 +3,7 @@ const Accordion = () => {
 
     return (
         <>
-            <div className="row d-flex justify-content-center " >
+            <div className="row d-flex justify-content-center me-5" >
                 <div className="col-sm-8 ">
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">

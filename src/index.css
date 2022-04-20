@@ -6,6 +6,9 @@ body{
   background-color: #242B2E;
   color: #fff;
 }
+.navbar-collapse{
+  flex-grow: 0;
+}
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
@@ -166,7 +169,8 @@ img.vert-move {
 }
 footer {
   color: white;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1041%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c45 C 96%2c90.4 288%2c258.8 480%2c272 C 672%2c285.2 768%2c129.2 960%2c111 C 1152%2c92.8 1344%2c167 1440%2c181L1440 560L0 560z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c452 C 144%2c434 432%2c347.4 720%2c362 C 1008%2c376.6 1296%2c492.4 1440%2c525L1440 560L0 560z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1041'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1448' height='568' preserveAspectRatio='none' viewBox='0 0 1448 568'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1142%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c24 C 96.6%2c46 289.8%2c127.2 483%2c134 C 676.2%2c140.8 773%2c63.4 966%2c58 C 1159%2c52.6 1351.6%2c97.2 1448%2c107L1448 568L0 568z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c225 C 72.4%2c214.6 217.2%2c167.4 362%2c173 C 506.8%2c178.6 579.2%2c252 724%2c253 C 868.8%2c254 941.2%2c181.6 1086%2c178 C 1230.8%2c174.4 1375.6%2c223.6 1448%2c235L1448 568L0 568z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c288 C 96.6%2c313 289.8%2c412 483%2c413 C 676.2%2c414 773%2c301.2 966%2c293 C 1159%2c284.8 1351.6%2c356.2 1448%2c372L1448 568L0 568z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c468 C 96.6%2c480.6 289.8%2c531.8 483%2c531 C 676.2%2c530.2 773%2c463.4 966%2c464 C 1159%2c464.6 1351.6%2c520 1448%2c534L1448 568L0 568z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1142'%3e%3crect width='1448' height='568' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
 }
 #devso {
   padding: 15px;
@@ -508,7 +512,7 @@ body,
  }
  .link{
   margin: 10px;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none;
   position: relative;
   top: 0;
@@ -516,9 +520,9 @@ body,
   padding: 10px;
 }
 .link:hover{
-  color: #758283;
-  padding-top: 60px;
-  top: -5px;
+  color: #636464;
+  padding-top: 0px;
+  top: -10px;
   transition: all 0.15s;
 }
 

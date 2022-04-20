@@ -205,6 +205,14 @@ const Navbar = () => {
                   Terms
                 </a>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/Team"
+                >
+                  Team
+                </Link>
+              </li>
             </ul>
             <div className="d-flex justify-content-center">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
