@@ -79,29 +79,45 @@ const Footer = () => {
 
             </div> */}
 
-            <div className="FotterItems d-flex align-items-center justify-content-evenly ">
+            <div
+              id="footerItem"
+              className="FotterItems d-flex  align-items-center justify-content-evenly"
+            >
               <p className="h4  mt-2 ">cwipedia.in</p>
               <p className="h5 mt-2">Pune, Maharashtra</p>
-              <a href="https://career.cwipedia.in" className="link">
-                Career
-              </a>
               <br />
-              <a href="https://training.cwipedia.in" className="link">
-                Training
-              </a>
-              <a
-                href="https://www.cwipedia.in/p/terms-and-conditions.html"
-                className="link"
-              >
-                Terms
-              </a>
-              <br />
-              <a
-                href="https://www.cwipedia.in/p/contact-us-demofont-familyarial.html"
-                className="link"
-              >
-                Contact
-              </a>
+
+              <p>
+                <a href="https://career.cwipedia.in" className="link">
+                  Career
+                </a>
+              </p>
+              {/* <br /> */}
+
+              <p>
+                <a href="https://training.cwipedia.in" className="link">
+                  Training
+                </a>
+              </p>
+
+              <p>
+                <a
+                  href="https://www.cwipedia.in/p/terms-and-conditions.html"
+                  className="link"
+                >
+                  Terms
+                </a>
+              </p>
+
+              {/* <br /> */}
+              <p>
+                <a
+                  href="https://www.cwipedia.in/p/contact-us-demofont-familyarial.html"
+                  className="link"
+                >
+                  Contact
+                </a>
+              </p>
             </div>
 
             <hr />
